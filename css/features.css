@@ -17,6 +17,7 @@
 	grid-auto-flow: column;
 	max-width: 1400px;
 	column-gap: 2rem;
+	justify-items: center;
 }
 .features .card-con div {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
@@ -41,7 +42,7 @@
 	margin-bottom: 1.5rem;
 }
 .features .card-con div p {
-	font-size: 1rem;
+	font-size: 1.3rem;
 	text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.5);
 }
 .features .card-con div span {

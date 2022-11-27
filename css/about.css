@@ -24,7 +24,7 @@
 	max-width: 550px;
 	height: 100%;
 	width: 50%;
-	position: relative;
+	position: relative;	
 	left: 25%;
 }
 .about .content-head {
@@ -77,7 +77,7 @@
 	}
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
 	.about {
 		background: url("../images/about-bg.png") no-repeat center left/cover;
 		height: 100%;
@@ -85,9 +85,12 @@
 	}
 	.about .content-head {
 		grid-auto-flow: row;
-	}
-	.about .about-content {
-		background-color: white;
+	}	
+	.about .about-img-con {
+		max-height: 250px;
+		max-width: 250px;
+		height: 100%;
+		width: 100%;
 	}
 	.about .content-head p {
 		font-size: 1.3rem;
