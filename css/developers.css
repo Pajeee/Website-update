@@ -6,9 +6,7 @@
 .dev >h1{
 	text-align: center;
 	padding: 7rem 0 4rem 0;
-	background: var(--gradient);
-	color: transparent;
-	-webkit-background-clip: text;
+	color: var(--navy);
 	font-size: 40px;
 }
 .dev .user-con{
