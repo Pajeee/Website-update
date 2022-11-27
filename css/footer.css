@@ -2,12 +2,12 @@
 	height: 100%;
 	width: 100%;
 	background-color: var(--navy);
+	padding: 1rem 0rem;
 }
 .footer .foot1{
 	max-width: 25rem;
 	width: 100%;
 	text-align: center;
-	padding: 1rem 0.5rem;
 	position: relative;
 	float: left;
 }
@@ -16,12 +16,10 @@
 	color: var(--winter);
 	padding-left: 1rem;
     font-size: 1.3rem;
-	top: 10%;
 }
 .footer .credit{
 	color: var(--winter);
 	font-size: 1.3rem;
-	padding: 1rem 0rem;
 }
 .footer .credit p{
 	position: relative;
