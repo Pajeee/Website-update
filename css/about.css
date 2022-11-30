@@ -2,103 +2,52 @@
 	background: url("../images/about-bg.png") no-repeat center center/cover;
 	height: 100%;
 	width: 100%;
+	display: flex;
 }
-.about > h1 {
-	text-align: center;
-	color: var(--navy);
-	padding-top: 7rem;
-	padding-bottom: 2rem;
-	font-size: 2.5rem;
-}
-.about .content-head {
-	max-width: 1270px;
-	margin: auto;
-}
-.about .about-img-con {
-	margin: auto;
-	width: 550px;
-	height: 550px;
-}
-.about .about-img-con img {
-	max-height: 550px;
-	max-width: 550px;
+.about .about-left{
+	width: 40%;
 	height: 100%;
-	width: 50%;
-	position: relative;	
-	left: 25%;
-}
-.about .content-head {
+	padding-top:7rem;
+	padding-left: 5rem;
 	display: grid;
-	grid-auto-flow: column;
-	place-items: center;
+	grid-row-gap: 0.5rem;
 }
-.about .content-head h1 {
-	margin-bottom: 1.5rem;
+.about .about-left p1{
+	color: white;
+	font-size: 2em;
 }
-.about .content-head p {
-	font-size: 1.1rem;
-	margin-bottom: 2.5rem;
-	text-align: justify;
+.about .about-left p2{
+	color: white;
+	font-size: 8rem;
+	line-height: 4.5rem;
+	font-weight: bolder;
+	text-shadow: 5px 5px 18px #000000;
 }
-.about .content-head .about-content span a {
-	background: var(--gradient);
-	padding: 0.9rem 2.5rem;
-	border-radius: 2rem;
-	text-decoration: none;
-	color: #fffffe;
+.about .about-left p3{
+	color: black;
+	font-weight: bolder;
 	font-size: 1.2rem;
-	transition: 0.3s ease;
+	padding:0.5rem;
+	background-color: #F4BE25;
+	width: fit-content;
 }
-.about .content-head .about-content span a:hover {
-	background: var(--blue);
-}
-.about .content-head .about-content span a:nth-child(1) {
-	margin-right: 2rem;
-}
-
-@media screen and (max-width: 1000px) {
-	.about .content-head .about-content span {
-		display: flex;
-		flex-direction: column;
-	}
-	.about .content-head .about-content span a {
-		max-width: 50%;
-		margin: 1rem 0;
-		text-align: center;
-	}
-	.about .content-head .about-content span a:nth-child(1) {
-		margin-right: 0;
-	}
-}
-@media screen and (max-width: 700px) {
-	.about .content-head .about-content span a {
-		max-width: 80%;
-		margin: 1rem 0;
-	}
+.about .about-left .message{
+	color: white;
+	text-align: justify;
+	font-size: 1.3rem;
 }
 
-@media screen and (max-width: 700px) {
-	.about {
-		background: url("../images/about-bg.png") no-repeat center left/cover;
-		height: 100%;
-		width: 100%;
-	}
-	.about .content-head {
-		grid-auto-flow: row;
-	}	
-	.about .about-img-con {
-		max-height: 250px;
-		max-width: 250px;
-		height: 100%;
-		width: 100%;
-	}
-	.about .content-head p {
-		font-size: 1.3rem;
-	}
+.about .about-right{
+	width: 40%;
+	height: 100vh;
+	position: relative;
+	left: 10%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-@media screen and (max-width: 500px) {
-	.about .content-head .about-content span a {
-		max-width: 100%;
-		margin: 1rem 0;
-	}
+.about .about-right img{
+	width: 100%;
+	height: 90%;
+	padding-top: 3rem;
 }
