@@ -3,25 +3,29 @@
 	height: 100%;
 	width: 100%;
 	display: flex;
+	justify-content: space-evenly;
 }
 .about .about-left{
-	width: 40%;
-	height: 100%;
-	padding-top:7rem;
-	padding-left: 5rem;
-	display: grid;
-	grid-row-gap: 0.5rem;
+	width: 50%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	padding-top: 10rem;
+	padding-left: 1rem;
 }
 .about .about-left p1{
 	color: white;
 	font-size: 2em;
+	font-family: 'Roboto', sans-serif;
+	font-style: italic;
 }
 .about .about-left p2{
 	color: white;
-	font-size: 8rem;
+	font-size: 10rem;
 	line-height: 4.5rem;
 	font-weight: bolder;
 	text-shadow: 5px 5px 18px #000000;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .about .about-left p3{
 	color: black;
@@ -30,18 +34,20 @@
 	padding:0.5rem;
 	background-color: #F4BE25;
 	width: fit-content;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .about .about-left .message{
+	padding-top: 1rem;
 	color: white;
 	text-align: justify;
 	font-size: 1.3rem;
+	text-indent: 2rem;
 }
 
 .about .about-right{
-	width: 40%;
+	width: 40vw;
 	height: 100vh;
 	position: relative;
-	left: 10%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -50,4 +56,13 @@
 	width: 100%;
 	height: 90%;
 	padding-top: 3rem;
+	animation: app 0.8s linear alternate infinite;
+}
+
+@keyframes app {
+    0% {
+    }
+    100% {
+        transform: translateY(15px);
+    }
 }

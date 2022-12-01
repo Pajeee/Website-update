@@ -2,8 +2,8 @@
 	height: 100%;
 	width: 100%;
 	background: var(--transparent);
-	padding-top: 5rem;
-	padding-bottom: 6rem;
+	padding-top:7rem;
+	padding-bottom:5rem;
 	place-items: center;
 }
 .contact .contact-sub-con {

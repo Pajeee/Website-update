@@ -10,6 +10,7 @@
 	text-align: center;
 	position: relative;
 	float: left;
+	left:5%;
 }
 .footer .foot1 a{
 	text-decoration: none;
@@ -20,11 +21,9 @@
 .footer .credit{
 	color: var(--winter);
 	font-size: 1.3rem;
+	padding-left: 5rem;
 }
-.footer .credit p{
-	position: relative;
-	padding-left: 2rem;
-}
+
 
 @media screen and (max-width:700px){
 	.footer{
