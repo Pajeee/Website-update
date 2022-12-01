@@ -8,6 +8,7 @@
 	padding: 7rem 0 4rem 0;
 	color: var(--navy);
 	font-size: 40px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .dev .user-con{
 	display: grid;
@@ -37,17 +38,17 @@
 }
 .dev .user-con div h1{
 	margin-bottom: 1rem;
-}
-.dev .user-con div h1{
 	color: var(--navy);
 	font-size: 1.5rem;
 	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .dev .user-con div p{
 	font-size: 1.5rem;
 	opacity: .8;
 	max-width: 450px;
 	text-align: center;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 @media screen and (max-width: 1150px){

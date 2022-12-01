@@ -10,6 +10,7 @@
 	font-size: 2.5rem;
 	color: var(--winter);
 	text-shadow: 10px 5px 20px rgb(197, 197, 197);
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .features .card-con {
 	display: grid;
@@ -44,12 +45,14 @@
 .features .card-con div p {
 	font-size: 1.3rem;
 	text-shadow: 3px 1px 0px rgba(0, 0, 0, 0.5);
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .features .card-con div span {
 	font-size: 1.7rem;
 	font-weight: bold;
 	display: flex;
 	justify-content: center;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media screen and (max-width: 1000px) {

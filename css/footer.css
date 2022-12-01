@@ -1,16 +1,18 @@
 .footer{
-	height: 100%;
+	height: 3rem;
 	width: 100%;
 	background-color: var(--navy);
-	padding: 1rem 0rem;
+	display: flex;
+	justify-content: start;
+	align-items: center;
 }
 .footer .foot1{
-	max-width: 25rem;
+	max-width: 23rem;
 	width: 100%;
-	text-align: center;
 	position: relative;
 	float: left;
 	left:5%;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .footer .foot1 a{
 	text-decoration: none;
@@ -18,10 +20,17 @@
 	padding-left: 1rem;
     font-size: 1.3rem;
 }
-.footer .credit{
+.footer .credit {
+	width: 15rem;
+	float: left;	
+	padding-left: 2rem;
+}
+.footer .credit p{
 	color: var(--winter);
 	font-size: 1.3rem;
-	padding-left: 5rem;
+	position: relative;
+	left: 5%;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 
 

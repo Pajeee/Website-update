@@ -30,6 +30,7 @@
 	color: var(--navy);
 	margin-bottom: 1.5rem;
 	font-size: 2.7rem;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .contact .contact-sub-con .main-form-con .form input,
 textarea {
@@ -43,6 +44,7 @@ textarea {
 .contact .contact-sub-con .main-form-con .form label {
 	color: var(--pink);
 	font-size: 1.1rem;
+	font-family: 'Roboto Condensed', sans-serif;
 }
 .contact .contact-sub-con .main-form-con .form .button {
 	padding: 0.5rem 1.5rem;
@@ -53,6 +55,7 @@ textarea {
 	cursor: pointer;
 	color: #ffff;
 	font-size: 1.2rem;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media screen and (max-width: 1300px) {
